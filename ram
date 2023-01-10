@@ -1,0 +1,25 @@
+create or replace database sairam;
+
+create or replace schema ram_ram;
+
+use database sairam;
+
+use schema ram_ram;
+
+create or replace table krishna(Segment varchar(20),
+                                Country varchar(20),
+                                Product varchar(20),
+                                Discount_Band varchar(20),
+                                Units_Sold varchar(20),
+                                Manufacturing_Price number(20),
+                                Sale_Price number(20),
+                                Gross_Sales number(30),
+                                Discounts number(20),
+                                Sales varchar(20),
+                                COGS varchar(20),
+                                Profit varchar(20),
+                                Date varchar(20),
+                                Month_Number number(20),
+                                Month_Name varchar(20),
+                                Year number(20));
+                                
